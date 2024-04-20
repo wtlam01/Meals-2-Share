@@ -1,0 +1,40 @@
+/* --------------------- Location ------------------ */
+.location-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .Locations-map{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+  }
+  
+  .location-all h1{
+    max-width: 960px;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+.location-all h3{
+    max-width: 960px;
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+.location-para p {
+    max-width: 960px;
+    /* font-size: 20px; */
+    margin: auto;
+    text-align: center;
+  }
+
+  .location-para{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
