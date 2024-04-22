@@ -43,6 +43,11 @@
 
 /*  ---------Menu Page----- */
 
+.Menu-page h1{
+  color: white;
+  text-align: center;
+}
+
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -69,7 +74,7 @@
   }
 }
 
-.p5js {
+.Menu-page {
   /*border: 1px solid white;*/
   background-color: darkslateblue;
 }
