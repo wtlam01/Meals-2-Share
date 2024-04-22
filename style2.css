@@ -97,14 +97,23 @@
   color: floralwhite;
 }
 
-@media only screen and (max-width: 860px) {
-  .p5js h3 {
-      font-size: 30px;
+
+
+/* a responsive navigation menu */
+@media screen and (max-width: 1200px) {
+  .p5js-group {
+      width: 33.33%;
   }
 }
 
-@media only screen and (max-width: 320px) {
-  .p5js h3 {
-      font-size: 25px;
+@media screen and (max-width: 700px) {
+  .p5js-group {
+      width: 50%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .p5js-group {
+      width: 100%;
   }
 }
