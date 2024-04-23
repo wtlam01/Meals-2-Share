@@ -127,10 +127,10 @@ menu-text {
 
 
 /* ---------ContactUs Page------------- */
-.contactus-page{
+/* .contactus-page{
   margin-left: 5%;
   margin-right: 5%;
-}
+} */
 
 .contactus{
   text-align: center;
@@ -138,6 +138,27 @@ menu-text {
 
 .contactus h1{
   font-size: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+  .contactus-page {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contactus-page {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .contactus-page {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 
@@ -158,6 +179,53 @@ menu-text {
   color: black;
 }
 
+.latestNewsss h2{
+text-align: center;
+}
 
+  .latestNewsss p {
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+  }
 
+  .latestNewsss{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
+@media only screen and (max-width: 860px) {
+  .latestNewsss h1 {
+      font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .atestNewsss h1{
+      font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .latestNewsss h2 {
+      font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .atestNewsss h2{
+      font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .latestNewsss p{
+      font-size: 15px;
+  }
+}
+
+/* @media only screen and (max-width: 320px) {
+  .atestNewsss p{
+      font-size: 15px;
+  }
+} */
