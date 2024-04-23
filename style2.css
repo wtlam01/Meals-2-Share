@@ -80,6 +80,18 @@ menu-text {
 } */
 
 .menu-item {
+  transition: transform 0.3s ease;
+}
+
+.Menu-page h1{
+  color: black;
+}
+
+.menu-item:hover {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
+
+.menu-item {
   width: 100%;
   height: auto;
   min-width: 10%;
@@ -224,8 +236,4 @@ text-align: center;
   }
 }
 
-/* @media only screen and (max-width: 320px) {
-  .atestNewsss p{
-      font-size: 15px;
-  }
-} */
+
