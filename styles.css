@@ -8,4 +8,85 @@
   }
 
 
-  /* ---------------box section------- */
+  /* ---------------user section------- */
+
+
+.user-page h1{
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.user-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: lightblue;
+  /* font-size: 25px; */
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 860px) {
+  .user-text {
+      font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .user-text {
+      font-size: 25px;
+  }
+}
+
+.user-page {
+  /*border: 1px solid white;*/
+  background-color: darkslateblue;
+}
+
+.user-item {
+  width: 100%;
+  height: auto;
+  min-width: 10%;
+  min-height: 10%;
+  padding: 15px;
+}
+
+.user-group {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1px 0 1px;
+}
+
+.user h3 {
+  font-family: 'Gorditas', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: floralwhite;
+}
+
+
+
+/* a responsive navigation menu */
+@media screen and (max-width: 1200px) {
+  .user-group {
+      width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .user-group {
+      width: 50%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .user-group {
+      width: 100%;
+  }
+}
