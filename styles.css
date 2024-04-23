@@ -1,17 +1,18 @@
-.topnav a{
-    /* float: center; */
-    text-align: center;
-  }
+.topnav a {
+  /* float: center; */
+  text-align: center;
+}
 
-  main{
-    margin-top: 100px;
-  }
-
-
-  /* ---------------user section------- */
+main {
+  margin-top: 120px;
+}
 
 
-.user-page h1{
+
+/* ---------------user section------- */
+
+
+.user-page h1 {
   color: white;
   text-align: center;
 }
@@ -32,13 +33,13 @@
 
 @media only screen and (max-width: 860px) {
   .user-text {
-      font-size: 15px;
+    font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .user-text {
-      font-size: 25px;
+    font-size: 25px;
   }
 }
 
@@ -75,18 +76,18 @@
 /* a responsive navigation menu */
 @media screen and (max-width: 1200px) {
   .user-group {
-      width: 33.33%;
+    width: 33.33%;
   }
 }
 
 @media screen and (max-width: 700px) {
   .user-group {
-      width: 50%;
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 300px) {
   .user-group {
-      width: 100%;
+    width: 100%;
   }
 }

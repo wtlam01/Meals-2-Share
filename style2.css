@@ -122,3 +122,42 @@ menu-text {
       width: 100%;
   }
 }
+
+
+
+
+/* ---------ContactUs Page------------- */
+.contactus-page{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contactus{
+  text-align: center;
+}
+
+.contactus h1{
+  font-size: 35px;
+}
+
+
+/* -------------About Us Page ------------ */
+.location-para{
+  text-align: center;
+  color: black;
+}
+
+
+.location-para h3{
+  margin-top: 50px;
+}
+
+/* -------------LatestNews Page ------------ */
+.latestNewsss h1{
+  text-align: center;
+  color: black;
+}
+
+
+
+

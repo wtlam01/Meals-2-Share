@@ -21,7 +21,7 @@
         <nav class="navbar bg-body-tertiary">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="image/Logo1.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-text">
+              <img src="image/Logo1.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-text">
               Meals 2 Share
             </a>
           </div>
@@ -63,6 +63,16 @@
 
   <main>
 
+    <script>
+      // JavaScript to scroll to user-page section
+      function scrollToUserPage() {
+        var userPageSection = document.querySelector('.user-page');
+        var navbarHeight = document.querySelector('.navbar').offsetHeight; // Get the height of the navbar
+        var offsetTop = userPageSection.offsetTop - navbarHeight; // Subtract the navbar height from the offsetTop
+        window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+      }
+    </script>
+
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -77,7 +87,8 @@
           <img src="image/storefront.jpeg" class="d-block w-100" alt="photo">
           <div class="carousel-caption text-end">
             <h1>Let's <br>Share <br> Together</h1>
-            <p><a class="btn btn-lg btn-primary" href="#">Explore More</a></p>
+            <!-- <p><a class="btn btn-lg btn-primary" href="#">Explore More</a></p> -->
+            <p><a class="btn btn-lg btn-primary" href="#" onclick="scrollToUserPage()">Explore More</a></p>
           </div>
         </div>
         <div class="carousel-item">
@@ -102,7 +113,7 @@
     </div>
 
     <!-- Boxes section -->
-    <div class="user-page">
+    <div class="user-page" id="user-page">
       <h1>User Experience</h1>
 
       <section class="user">
@@ -170,5 +181,10 @@
   </main>
 
 </body>
+
+<footer>
+  <p>© 2024 Meals 2 Share. All rights reserved</p>
+</footer>
+
 
 </html>

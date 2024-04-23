@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
 
-    <link rel="stylesheet" href="style2.css">
-    <script src="js/bootstrap.min.js"></script>
-    <title>Meals 2 Share</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="style2.css">
+  <script src="js/bootstrap.min.js"></script>
+  <title>Meals 2 Share</title>
+
+  <style>
+    /* CSS to set background image */
+    main {
+      background-image: url('image/background2.PNG');
+      /* Adjust the path to your image */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 10px;
+      /* Adjust padding as needed */
+
+    }
+  </style>
 </head>
 
 <body>
@@ -19,13 +34,14 @@
         <nav class="navbar bg-body-tertiary">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="image/Logo1.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-text">
+              <img src="image/Logo1.png" alt="Logo" width="80" height="80" class="d-inline-block align-text-text">
               Meals 2 Share
             </a>
           </div>
         </nav>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -51,11 +67,73 @@
             <!-- <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true">Menu</a>
               </li> -->
-  
+
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
+  <main>
+    <div class="latestNewsss">
+      <h1> Latest News</h1>
+
+      <h2>! Our Fresh Food Boxes !</h2>
+      <p>Enjoy a weekly selection of farm-fresh produce and cupboard essentials sourced directly from local markets and
+        grocers. Each box is carefully curated to offer nutritious options while combating food waste. Join us in our
+        mission to promote sustainability and support struggling individuals and families in our community. Our Fresh
+        Food Boxes are in high demand and available in limited quantities each week. Reserve yours now and make a
+        difference with every meal!</p>
+
+
+  <p>Customers can conveniently pick up their boxes every Monday</p>
+
+  <nav class="fillform">
+    <div class="mb-3">
+      <label for="basic-url" class="form-label">Name</label>
+      <div class="input-group">
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+      </div>
+    </div>
+    
+    <div class="mb-3">
+      <label for="basic-url" class="form-label">Phone Number</label>
+      <div class="input-group">
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+      </div>
+    </div>
+    
+    <div class="mb-3">
+      <label for="basic-url" class="form-label">Email</label>
+      <div class="input-group">
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+      </div>
+    </div>
+   
+  </nav>
+
+
+  <select class="form-select" aria-label="Default select example">
+    <option selected>Select your preferred pickup location for your box</option>
+    <option value="1">West Point</option>
+    <option value="2">Causeway Bay</option>
+    <option value="3">Tseung Kwan O</option>
+    <option value="4">Tsuen Wan</option>
+    <option value="5">Fo Tan</option>
+    <option value="6">Tuen Mun</option>
+  </select>
+
+  <br>
+  <div class="input-group input-group-lg">
+    <button type="button" class="btn btn-outline-success">Submit</button>
+  </div>
+
+  
+</main>
 </body>
+
+<footer>
+  <p>© 2024 Meals 2 Share. All rights reserved</p>
+</footer>
+
+</html>
