@@ -69,7 +69,7 @@
 /*  ---------Menu Page----- */
 
 .Menu-page h1{
-  color: white;
+  color: rgb(22, 105, 65);
   text-align: center;
 }
 
@@ -200,24 +200,30 @@ menu-text {
 
 
 /* -------------About Us Page ------------ */
+.location-para h1{
+color: rgb(22, 105, 65);
+}
+
 .location-para{
   text-align: center;
-  color: black;
+  color:black;
 }
 
 
 .location-para h3{
   margin-top: 50px;
+  color: rgb(22, 105, 65);
 }
 
 /* -------------LatestNews Page ------------ */
 .latestNewsss h1{
   text-align: center;
-  color: black;
+  color: rgb(22, 105, 65);
 }
 
 .latestNewsss h2{
 text-align: center;
+color: rgb(22, 105, 65);
 }
 
   .latestNewsss p {

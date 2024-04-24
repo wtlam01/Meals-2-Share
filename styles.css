@@ -13,13 +13,31 @@ footer{
   margin-top: 5%;
 }
 
+.carousel-inner h1{
+  color: rgb(22, 105, 65);
+  text-shadow: 
+  -1px -1px 0 white,  
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white; /* Add stroke effect */
+}
+
 
 /* ---------------user section------- */
+
+.user {
+  background-image: url('image/background5.png'); /* Specify the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0; /* Add some padding for spacing */
+}
 
 .user-page h1{
   color: rgb(35, 149, 93);
   text-align: center;
 }
+
 
 .container {
   display: flex;
