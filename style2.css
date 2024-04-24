@@ -12,7 +12,25 @@
     justify-content: center; 
     margin-bottom: 3%;
   }
+ 
   
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .Locations-map iframe {
+      width: 400px;
+      height: 300px; /* Set a smaller height for smaller screens */
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media screen and (min-width: 1200px) {
+    .Locations-map iframe {
+      width: 900px;
+      height: 600px; /* Set a larger height for larger screens */
+    }
+  }
+  
+
   .location-all h1{
     max-width: 960px;
     font-size: 30px;
@@ -68,7 +86,7 @@
 
 /*  ---------Menu Page----- */
 
-.Menu-page h1{
+.menu h1{
   color: rgb(22, 105, 65);
   text-align: center;
 }
@@ -175,6 +193,7 @@ menu-text {
 
 .contactus h1{
   font-size: 35px;
+  color: rgb(22, 105, 65);
 }
 
 @media screen and (max-width: 1200px) {
@@ -214,6 +233,13 @@ color: rgb(22, 105, 65);
   margin-top: 50px;
   color: rgb(22, 105, 65);
 }
+
+.location-para p {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+}
+
 
 /* -------------LatestNews Page ------------ */
 .latestNewsss h1{

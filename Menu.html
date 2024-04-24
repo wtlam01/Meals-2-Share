@@ -15,21 +15,22 @@
   <style>
     /* CSS to set background image */
     main {
-        background-image: url('image/background5.png'); /* Adjust the path to your image */
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 10px; /* Adjust padding as needed */
-  
-    }
+      background-image: url('image/background5.png');
+      /* Adjust the path to your image */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 10px;
+      /* Adjust padding as needed */
 
-</style>
-  
+    }
+  </style>
+
 </head>
 
 <body>
   <header>
-    
+
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
       <div class="container-fluid topnav">
         <nav class="navbar bg-body-tertiary">
@@ -76,58 +77,65 @@
   </header>
 
   <main>
-    <div class="Menu-page">
-      <h1>Menu</h1>
 
-      <section class="menu">
+
+
+    <section class="menu">
+      <div class="Menu-page"></div>
+        <h1>Menu</h1>
         <div class="container">
           <div class="menu-group">
             <!-- <h3>Contrast</h3> -->
-            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link" target="menupdf">
-            <img class="menu-item" src="image/MenuMockup.jpeg" alt="menu">
-          </a>
+            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link"
+              target="menupdf">
+              <img class="menu-item" src="image/MenuMockup.jpeg" alt="menu">
+            </a>
           </div>
 
           <div class="menu-group">
             <!-- <h3>Randomisations</h3> -->
-            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link" target="menupdf">
-            <img class="menu-item" src="image/IMG_4326.PNG" alt="menu">
+            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link"
+              target="menupdf">
+              <img class="menu-item" src="image/IMG_4326.PNG" alt="menu">
             </a>
           </div>
 
           <div class="menu-group">
             <!-- <h3>Repetition</h3> -->
-            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link" target="menupdf">
-            <img class="menu-item" src="image/menu.png" alt="menu">
+            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link"
+              target="menupdf">
+              <img class="menu-item" src="image/menu.png" alt="menu">
             </a>
-        
+
           </div>
 
           <div class="menu-group">
             <!-- <h3>Contrast</h3> -->
-            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link" target="menupdf">
-            <img class="menu-item" src="image/menu2.png" alt="menu">
+            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link"
+              target="menupdf">
+              <img class="menu-item" src="image/menu2.png" alt="menu">
             </a>
           </div>
 
           <div class="menu-group">
             <!-- <h3>Randomisations</h3> -->
-            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link" target="menupdf">
-            <img class="menu-item" src="image/menu3.png" alt="menu">
+            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link"
+              target="menupdf">
+              <img class="menu-item" src="image/menu3.png" alt="menu">
             </a>
           </div>
 
           <div class="menu-group">
             <!-- <h3>Repetition</h3> -->
-            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link" target="menupdf">
-            <img class="menu-item" src="image/menu4.png" alt="menu">
+            <a href="https://drive.google.com/file/d/1yP7FCmbagRc3mM0gsBK42RgXL2RZ78xp/view?usp=drive_link"
+              target="menupdf">
+              <img class="menu-item" src="image/menu4.png" alt="menu">
             </a>
           </div>
+        
+      </div>
+    </section>
 
-      </section>
-
-
-    </div>
 
 
 
@@ -135,6 +143,16 @@
 </body>
 
 <footer>
-  <p>© 2024 Meals 2 Share. All rights reserved</p>
-</footer>
+  <!-- Left content -->
+  <div>
+    <p>© 2024 Meals 2 Share. All rights reserved</p>
+  </div>
+
+  <!-- Right content -->
+  <div>
+    <!-- Privacy Policy link with onclick event -->
+    <a href="Privacy.html" onclick="openPopup('privacy_policy.html', 'Privacy Policy')">Privacy Policy</a>
+    <!-- Terms and Conditions link with onclick event -->
+    <a href="Terms.html" onclick="openPopup('terms_and_conditions.html', 'Terms and Conditions')">Terms and Conditions</a>
+  </div>
 </html>
