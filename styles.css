@@ -10,7 +10,7 @@ main {
 footer{
   text-align: center;
   font-size: 12px;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .carousel-inner h1{
@@ -150,6 +150,7 @@ footer {
   align-items: center;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 2%;
 }
 
 footer div:last-child {
