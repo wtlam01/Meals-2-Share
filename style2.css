@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center; 
+    margin-bottom: 3%;
   }
   
   .location-all h1{
@@ -27,18 +28,42 @@
     text-align: center;
 }
 
+.location-group h1{
+  text-align: center;
+}
+
 .location-para p {
-    max-width: 960px;
-    /* font-size: 20px; */
+    /* max-width: 960px; */
     margin: auto;
     text-align: center;
+    justify-content: center;
   }
 
   .location-para{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
+  @media screen and (max-width: 1200px) {
+    .location-para{
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .location-para{
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+  }
+  
+  @media screen and (max-width: 300px) {
+    .location-para{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
 
 
 /*  ---------Menu Page----- */

@@ -16,9 +16,8 @@ footer{
 
 /* ---------------user section------- */
 
-
-.user-page h1 {
-  color: white;
+.user-page h1{
+  color: rgb(35, 149, 93);
   text-align: center;
 }
 
@@ -31,14 +30,14 @@ footer{
 .user-text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  color: lightblue;
+  color: rgb(22, 105, 65);
   /* font-size: 25px; */
   font-weight: bold;
 }
 
 @media only screen and (max-width: 860px) {
   .user-text {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
@@ -48,9 +47,9 @@ footer{
   }
 }
 
-.user-page {
-  /*border: 1px solid white;*/
-  background-color: darkslateblue;
+.user-page h1{
+  margin-top: 15px;
+  color:black
 }
 
 .user-item {
@@ -96,3 +95,35 @@ footer{
     width: 100%;
   }
 }
+
+.news1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch; /* Make both sections stretch to the same height */
+}
+
+.left-section {
+  flex: 1;
+  padding: 20px;
+  background-image: url('image/PaperBag.png'); 
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc; 
+  min-height: 300px; 
+}
+
+.right-section {
+  flex: 1;
+  padding: 20px;
+  background-image: url('image/Logosign.png'); 
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc; 
+  min-height: 300px; 
+}
+
+.news1 h2 {
+  text-align: center;
+  color: rgb(42, 42, 42);
+}
+
