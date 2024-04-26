@@ -186,36 +186,66 @@ menu-text {
   margin-left: 5%;
   margin-right: 5%;
 } */
-
+/* 
 .contactus{
   text-align: center;
-}
+} */
 
-.contactus h1{
+.contactus-section h1{
   font-size: 35px;
   color: rgb(22, 105, 65);
 }
-
+/* 
 @media screen and (max-width: 1200px) {
   .contactus-page {
     margin-left: 25%;
     margin-right: 25%;
   }
-}
+} */
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .contactus-page {
     margin-left: 15%;
     margin-right: 15%;
   }
-}
-
+} */
+/* 
 @media screen and (max-width: 300px) {
   .contactus-page {
     margin-left: 5%;
     margin-right: 5%;
   }
+} */
+
+.contactus-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items vertically at the start */
+  flex-wrap: wrap; /* Wrap elements when screen size is small */
 }
+
+.contact-info {
+  width: 45%; /* Set width for contact information */
+  margin-bottom: 20px; /* Add margin to separate from contact form */
+}
+
+.fillform {
+  width: 45%; /* Set width for contact form */
+  margin-bottom: 20px; /* Add margin to separate from contact information */
+}
+
+@media screen and (max-width: 767px) {
+  .contactus-page {
+      flex-direction: column; /* Stack elements vertically on small screens */
+      align-items: center; /* Center items horizontally on small screens */
+  }
+
+  .contact-info,
+  .fillform {
+      width: 100%; /* Set full width on small screens */
+  }
+}
+
 
 
 /* -------------About Us Page ------------ */
