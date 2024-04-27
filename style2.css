@@ -282,55 +282,80 @@ color: rgb(22, 105, 65);
 
 
 /* -------------LatestNews Page ------------ */
-.latestNewsss h1{
+.expanded-content {
+  display: none;
+}
+
+.latestNewsss.expanded .expanded-content {
+  display: block;
+}
+
+.location h1 {
+  color: rgb(22, 105, 65);
+}
+
+.latestNewsss {
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 90%; 
+  margin: auto; 
+}
+
+.latestNewsss h2 {
   text-align: center;
   color: rgb(22, 105, 65);
 }
 
-.latestNewsss h2{
-text-align: center;
-color: rgb(22, 105, 65);
+.latestNewsss h3 {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(22, 105, 65);
 }
 
-  .latestNewsss p {
-    max-width: 960px;
-    margin: auto;
-    text-align: center;
-  }
+.latestNewsss p {
+  max-width: 960px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
 
-  .latestNewsss{
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
+.latestNewsss {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 @media only screen and (max-width: 860px) {
   .latestNewsss h1 {
-      font-size: 30px;
+    font-size: 30px;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .atestNewsss h1{
-      font-size: 25px;
+  .atestNewsss h1 {
+    font-size: 25px;
   }
 }
 
 @media only screen and (max-width: 860px) {
   .latestNewsss h2 {
-      font-size: 25px;
+    font-size: 25px;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .atestNewsss h2{
-      font-size: 20px;
+  .atestNewsss h2 {
+    font-size: 20px;
   }
 }
 
 @media only screen and (max-width: 860px) {
-  .latestNewsss p{
-      font-size: 15px;
+  .latestNewsss p {
+    font-size: 15px;
   }
 }
+
 
 

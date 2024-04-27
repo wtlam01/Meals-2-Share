@@ -13,16 +13,13 @@
   <title>Meals 2 Share</title>
 
   <style>
-    /* CSS to set background image */
+
     main {
       background-image: url('image/background2.PNG');
-      /* Adjust the path to your image */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       padding: 10px;
-      /* Adjust padding as needed */
-
     }
   </style>
 </head>
@@ -74,7 +71,101 @@
     </nav>
   </header>
 
+
+
   <main>
+    <section class="location">
+      <div class="container">
+        <h1> Latest News</h1>
+        <div class="latestNewsss" id="news1" onclick="toggleNews('news1')">
+       <h2>! Our Fresh Food Boxes !</h2>
+          <div class="expanded-content">
+            <br>
+      <p>Enjoy a weekly selection of farm-fresh produce and cupboard essentials sourced directly from local markets and
+        grocers. Each box is carefully curated to offer nutritious options while combating food waste. Join us in our
+        mission to promote sustainability and support struggling individuals and families in our community. Our Fresh
+        Food Boxes are in high demand and available in limited quantities each week. Reserve yours now and make a
+        difference with every meal!</p>
+
+<br>
+<p>*Customers can conveniently pick up their boxes every Monday*</p>
+<br>
+<nav class="fillform" onclick="stopPropagation(event)">
+    <div class="mb-3">
+      <label for="basic-url" class="form-label">Name</label>
+      <div class="input-group">
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+      </div>
+    </div>
+    
+    <div class="mb-3">
+      <label for="basic-url" class="form-label">Phone Number</label>
+      <div class="input-group">
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+      </div>
+    </div>
+    
+    <div class="mb-3">
+      <label for="basic-url" class="form-label">Email</label>
+      <div class="input-group">
+        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+      </div>
+    </div>
+   
+  </nav>
+
+
+  <select class="form-select" aria-label="Default select example" onclick="stopPropagation(event)">
+    <option selected>Select your preferred pickup location for your box</option>
+    <option value="1">West Point</option>
+    <option value="2">Causeway Bay</option>
+    <option value="3">Tseung Kwan O</option>
+    <option value="4">Tsuen Wan</option>
+    <option value="5">Fo Tan</option>
+    <option value="6">Tuen Mun</option>
+  </select>
+
+  <br>
+  <div class="input-group input-group-lg" onclick="stopPropagation(event)">
+    <button type="button" class="btn btn-outline-success">Submit</button>
+  </div>
+    </div>
+      </div>
+          </div>
+        </div>
+
+        <div class="latestNewsss" id="news2" onclick="toggleNews('news2')">
+          <h2> Introducing Online and In-Store Donations!</h2>
+
+          <div class="expanded-content">
+            <p>We are thrilled to announce the launch of our new online donation feature, allowing you to contribute to our mission with just a few clicks. At Meals 2 Share, we are dedicated to combating food waste and providing nourishing meals to those in need. Now, you can join us in making a difference by supporting our initiatives through online donations. Additionally, we also offer in-store donation opportunities for those who prefer to contribute in person. Every donation, whether made online or in-store, helps us continue our vital work and make a positive impact on the lives of others.</p>
+            <br>
+            <h3>How You Can Help:</h3>
+            <p>Your generosity can make a real impact in our community. By making a donation, you'll be helping us:</p>
+            <br>
+            <p>Rescue surplus food from going to waste.</p>
+               <p> Provide fresh, nutritious meals to individuals and families facing food insecurity.</p>
+                <p>Support our efforts to create a more sustainable future for all.</p>
+                <br>
+                <h3>Donate Now:</h3>
+                <p>Ready to make a difference? Click the "Donate Now" button below to contribute to our cause online, or visit us in-store to make a donation in person. Every donation, no matter how big or small, helps us continue our vital work and make a positive impact on the lives of others.</p>
+                <div class="input-group input-group-lg" onclick="stopPropagation(event)">
+                  <button type="button" class="btn btn-outline-success">Donate Now</button>
+                </div>
+                <br>
+                <h3>Thank You for Your Support:</h3>
+                <p>We want to express our heartfelt gratitude to all our donors who have supported us along the way. Your generosity enables us to fulfill our mission and create positive change in our community.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+  <!-- <main>
     <section class="location">
       <div class="container">
     <div class="latestNewsss">
@@ -134,7 +225,7 @@
     <button type="button" class="btn btn-outline-success">Submit</button>
   </div>
     </div>
-      </div>
+      </div> -->
     </section>
   
 </main>
@@ -153,4 +244,17 @@
     <!-- Terms and Conditions link with onclick event -->
     <a href="Terms.html" onclick="openPopup('terms_and_conditions.html', 'Terms and Conditions')">Terms and Conditions</a>
   </div>
+</footer>
+
+<script>
+  function toggleNews(id) {
+    const news = document.getElementById(id);
+    news.classList.toggle('expanded');
+  }
+
+  function stopPropagation(event) {
+    event.stopPropagation();
+  }
+</script>
+
 </html>
